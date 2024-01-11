@@ -91,7 +91,7 @@ kubectl get pods
 
 ******************
 
-Install minikube on linux
+#Install minikube on linux
 
 login with non root user
 
