@@ -66,6 +66,12 @@ add path in Mycomputer (This pc) >> properties >> advance system setting >> adva
 
 So you can add commands directoly from anywhere from cmd.
 
+download kubectl and save in folder.
+
+curl.exe -LO "https://dl.k8s.io/release/v1.29.0/bin/windows/amd64/kubectl.exe"
+
+or download https://dl.k8s.io/release/v1.29.0/bin/windows/amd64/kubectl.exe from this url and save to same folder
+
 <code>
 C:\Program Files\Kubernetes\Minikube>doskey/history
 cd C:\Program Files\Kubernetes\Minikube
