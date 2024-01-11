@@ -56,10 +56,30 @@ NOTE :
 
 enable hyper -v in your windows 
 
-download and install Virtual box
+So during installetion machine will create in hyper -v
 
-Refrence for download : https://www.virtualbox.org/wiki/Downloads
 ----
 
 in cmd >> minikube.ese start
+
+add path in Mycomputer (This pc) >> properties >> advance system setting >> advance tab >> Environment variables >> select path >> click on edit >>  click on new for add new path >> give value C:\Program Files\Kubernetes\Minikube
+
+So you can add commands directoly from anywhere from cmd.
+
+<code>
+C:\Program Files\Kubernetes\Minikube>doskey/history
+cd C:\Program Files\Kubernetes\Minikube
+
+minikube start
+minikube delete
+  
+minikube start
+kubectl get pods
+kubectl create deployment mywebserver1 --image=httpd
+kubectl get pods
+
+kubectl delete pod mywebserver1-96 mywebserver1-9655b979-tmnxs
+kubectl get pods
+
+</code>
 
