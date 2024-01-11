@@ -51,3 +51,15 @@ open cmd
 
 cd C:\Program Files\Kubernetes\Minikube
 
+----
+NOTE :
+
+enable hyper -v in your windows 
+
+download and install Virtual box
+
+Refrence for download : https://www.virtualbox.org/wiki/Downloads
+----
+
+in cmd >> minikube.ese start
+
