@@ -96,14 +96,17 @@ Install minikube on linux
 login with non root user
 
 <code>IN RHEL 8
-## download minikube
+##download minikube
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
-## minikube cluster create
+##minikube cluster create
 minikube start
 
-## kubectl command
-curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+When got error : sudo usermod -a -G docker $USER && reboot
+
+##kubectl command
+###curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+giving error
 </code>
 
