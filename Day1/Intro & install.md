@@ -106,7 +106,17 @@ minikube start
 When got error : sudo usermod -a -G docker $USER && reboot
 
 ##kubectl command
-###curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-giving error
+
+
+     cd ~
+   
+     curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+   
+     chmod a+x kubectl 
+    
+     sudo mv kubectl /usr/bin/
+  
+     kubectl get pods
+
 </code>
 
